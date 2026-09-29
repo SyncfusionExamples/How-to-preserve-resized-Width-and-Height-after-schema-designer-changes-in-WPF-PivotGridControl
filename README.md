@@ -1,0 +1,1 @@
+# How-to-preserve-resized-Width-and-Height-after-schema-designer-changes-in-WPF-PivotGridControl
