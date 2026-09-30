@@ -2,7 +2,7 @@
 using Syncfusion.Windows.Controls.Grid;
 using System.Windows;
 
-namespace WpfApp1
+namespace PivotGridResizingDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -12,7 +12,7 @@ namespace WpfApp1
         // Store user-customized column widths by FieldMappingName or Column Key
         private readonly Dictionary<int, double> _customColumnWidths = new Dictionary<int, double>();
         private readonly Dictionary<int, double> _customRowHeights = new Dictionary<int, double>();
-         
+
         public MainWindow()
         {
             InitializeComponent();

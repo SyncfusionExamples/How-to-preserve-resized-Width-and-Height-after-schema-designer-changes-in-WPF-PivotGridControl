@@ -1,4 +1,4 @@
-﻿namespace WpfApp1
+﻿namespace PivotGridResizingDemo
 {
     public class ProductSales
     {
@@ -37,24 +37,27 @@
         {
             /// Geography
             string[] countries = new string[] {
-            "Canada"
-        };
+                "Canada"
+            };
             string[] canadaStates = new string[] {
-            "Alberta",
-            "British Columbia",
-            "Ontario"
-        };
+                "Alberta",
+                "British Columbia",
+                "Ontario"
+             };
+            
             /// Time
             string[] dates = new string[] {
-            "FY 2005",
-            "FY 2006",
-            "FY 2007"
-        };
+                "FY 2005",
+                "FY 2006",
+                "FY 2007"
+            };
+            
             /// Products
             string[] products = new string[] {
-            "Bike",
-            "Car"
-        };
+                "Bike",
+                "Car"
+            };
+
             Random r = new Random(123345345);
             int numberOfRecords = 2000;
             ProductSalesCollection listOfProductSales = new ProductSalesCollection();
